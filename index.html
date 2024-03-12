@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shantha's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3baf712733.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!------------------------------header--------------------------------------------->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo">Shantha .<span>S</span></h1>
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certification">Certification</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+
+            <div class="header-text">
+                <p>Undergraduate EUSL</p>
+                <h1>Hi, I'm <span>Shantha</span> <br>from Sri Lanka</h1>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--------------------------------------about--------------------------------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="col1">
+                    <img src="img/ab.png" alt="">
+                </div>
+                <div class="col2">
+                    <h1>About Me</h1>
+                    <p>
+                        I am a highly motivated and results-oriented Third-year undergraduate at <span> Eastern University</span>, 
+                        pursuing a BBA honours degree. Possess a strong academic foundation with excellent GCE (O/L) 
+                        results and a diverse skillset encompassing accounting, Business administration. And computer 
+                        literacy. Eager to leverage academic knowledge and practical skills to contribute meaningfully
+                         to a dynamic organization.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Accounting</span><br>I Can Help You Explore Specific Accounting Topics</li>
+                            <li><span>Budgeting</span><br>I Can Take Control of Your Finance and Archive Your Financial Goals</li>
+                            <li><span>Banking</span><br>Become a More informed and confident Banking Customer</li>
+                            <li><span>Dealership</span><br>Become a More Effective Leader</li>
+                            <li><span>Customer Services</span><br>Good Relationship with Customer</li>
+                            <li><span>Insurance</span><br>I Can Significantly Enhance My Insurance Skills</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2020 - 2021</span><br>Banking (Peoples Bank)</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2017 - 2018</span><br>Computer literacy  (NVQ 3)</li> 
+                            <li><span>2019 - 2020</span><br>AAT (L1, L2, L3)</li>
+                            <li><span>2021...</span><br>Bachelor of Business Administration at Eastern University</li> 
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+<!-------------------------------------------------certification------------------------------------------>
+
+    <div id="certification">
+        <div class="container">
+            <h1 class="head">Certifications</h1>
+            <div class="row">
+                <div class="c-card 1">
+                    <div class="c-img">
+                        <img src="img/aat.png" alt="">
+                    </div>
+                    <div class="cd">
+                        <h1>The Association of Accounting Technicians of Sri Lanka</h1>
+                        <div class="line"></div>
+                        <div class="des">
+                            <p class="year">2019 - 2020</p>
+                            <p>L1, L2, L3</p>
+                        </div>   
+                    </div>
+                </div>
+                <div class="c-card 2">
+                    <div class="c-img">
+                        <img src="img/oxford.png" alt="">
+                    </div>
+                    <div class="cd">
+                        <h1>Workshop on Oxford Journals</h1>
+                        <div class="line"></div>
+                        <div class="des">
+                            <p class="year">22/02/2022</p>
+                        </div>   
+                    </div>
+                </div>
+                <div class="c-card 3">
+                    <div class="c-img">
+                        <img src="img/EUSL.png" alt="">
+                    </div>
+                    <div class="cd">
+                        <h1>Workshop in Entepreneurship</h1>
+                        <div class="line"></div>
+                        <div class="des">
+                            <p class="year">OCT 2023</p>
+                        </div>   
+                    </div>
+                </div>
+                <div class="c-card 4">
+                    <div class="c-img">
+                        <img src="img/computer.png" alt="">
+                    </div>
+                    <div class="cd">
+                        <h1>Computer literacy</h1>
+                        <div class="line"></div>
+                        <div class="des">
+                            <p class="year">2017-2018</p>
+                            <p>NVQ 3</p>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------------------------------contact---------------------------------------------------->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col1">
+                    <h1>Contact Me</h1>
+                    <a href="mailto:sadhanandhanshantha@gmail.com" class="email"><p><i class="fa-solid fa-envelope" se></i> sadhanandhanshantha@gmail.com</p></a>
+                    <a href="tel:+94763333360" class="phone"><p><i class="fa-solid fa-phone"></i> 076-3333360 / 075-8785255</p></a>
+                    <div class="links">
+                        <a href="https://www.facebook.com/sadhanandhan.shantha?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/shantha_svs?igsh=MXRrN2tleWR6aGs5ag=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sadhanandhan-shantha-69a000250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+                    <div class="btn">
+                        <a href="img/Shnatha CV.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+
+                </div>
+                <div class="col2">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Name" required>
+                            <input type="email" name="Email" placeholder="Email" required>
+                            <textarea name="Message"  rows="6" placeholder="Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button> 
+                        </form>
+                        <div class="space"></div>
+                        <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © Shantha. Made with by <a href="https://linktr.ee/pravin_04">Pravin.K</a></p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+       </script>
+
+       <script>
+
+            var sd = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sd.style.right = "0";
+            }
+            function closemenu(){
+                sd.style.right = "-200px";
+            }
+
+       </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyS4z6TLwbt8kh2m9HuFEN6-2GYSOSoegY2A9qZ8iEOXzq1MkUYoFuRXmEtMfgMFXES/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+        
+            form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => { msg.innerHTML = "Message send successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+            })
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    
+    
+</body>
+</html>
